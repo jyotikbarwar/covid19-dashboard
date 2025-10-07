@@ -24,7 +24,7 @@ cd <REPO_FOLDER>
 
 python3 -m venv covid_env
 source covid_env/bin/activate   # Mac/Linux
-# OR
+####
 covid_env\Scripts\activate      # Windows
 pip install -r requirements.txt
 streamlit run app.py
